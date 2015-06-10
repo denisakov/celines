@@ -3,19 +3,28 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta name="viewport">
 
     <link rel="stylesheet" href="stylesheets/core.css" media="screen">
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+    
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+    <link type="text/css" rel="stylesheet" href="stylesheets/example.css">
 
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('#main_content').headsmart()
-      })
+        $(window).scroll(function(){
+			$('*[class^="prlx"]').each(function(r){
+				var pos = $(this).offset().top;
+				var scrolled = $(window).scrollTop();
+		    	$('*[class^="prlx"]').css('top', -(scrolled * 0.5) + 'px');			
+		    });
+		});
+      });
     </script>
     <title>Celine's Cafe</title>
   </head>
@@ -24,45 +33,40 @@
     
     <div class="shell">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Celine's Cafe</h1>
-            <h2>as well as Grill bar</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          
-        </span>
-      </section>
+    	<section class="section-one">
+ 			<div class="prlx-1"></div>  	
+		</section>
 
 
-      <span class="banner-fix"></span>
+	    <section id="section-two">
+	        <header>
+			    <span class="ribbon-outer">
+			   	    <span class="ribbon-inner">
+			            <h1>Celine's Cafe</h1>
+			            <h2>as well as Grill bar</h2>
+			        </span>
+			        <span class="left-tail"></span>
+			        <span class="right-tail"></span>
+		        </span>
+		    </header>
+	    </section>
 
+	    <section class="section-three">
+	 		<div class="prlx-2"></div>
+	 	</section>
 
-      <section id="main_content">
-        <h3>
-		<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to our cafe</h3>
+	 	<section class="section-four">
 
-
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/denisakov">denisakov</a> can be found on <a href="https://github.com/denisakov/cenines">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
+		      <footer>
+		        <span class="ribbon-outer">
+		          <span class="ribbon-inner">
+		            <p>this project by <a href="https://github.com/denisakov">denisakov</a> can be found on <a href="https://github.com/denisakov/celines">GitHub</a></p>
+		          </span>
+		          <span class="left-tail"></span>
+		          <span class="right-tail"></span>
+		        </span>
+		      </footer>
+    	</section>
 
     </div>
 

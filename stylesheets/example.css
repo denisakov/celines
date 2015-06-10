@@ -17,8 +17,8 @@
   left:0;
   z-index: -1;
 }
-.prlx-1{ background: url('../images/bg2.webp') repeat; }
-.prlx-2{ background: url('../images/bg.webp') repeat; }
+.prlx-1{ background: url('../images/bg2.jpg') repeat; }
+.prlx-2{ background: url('../images/bg.jpg') repeat; }
 
 .section-one h2, .section-three h2{ 
 	font: bold 38px helvetica, sans-serif;

@@ -9,7 +9,7 @@
 .clear{clear: both;}
 .tuto-cnt{width: 360px; height:auto; min-height: 400px; margin: 40px auto; overflow: auto; }
 .tuto-cnt p{ line-height: 18px; font-size: 14px;}
-*[class^="prlx"] {
+*[class^="prlx"], .main {
   position: absolute;
   width: 100%;
   height: 300%;
@@ -17,8 +17,8 @@
   left:0;
   z-index: -1;
 }
-.prlx-1{ background: url('../images/bg2.jpg') repeat; }
-.prlx-2{ background: url('../images/bg.jpg') repeat; }
+/*.prlx-1{ background: repeat; }*/
+.prlx-2{ background: url('../images/bg2.jpg') repeat; }
 
 .section-one h2, .section-three h2{ 
 	font: bold 38px helvetica, sans-serif;
@@ -29,13 +29,19 @@
 	background-color: #232323;
 }
 
-.section-one, .section-two, .section-three{
+.section-one{
+	width: 100%; min-height: 666px;
+	position: relative;
+	overflow: hidden;
+	/*background-position:50% 100%;*/
+}
+
+.section-two, .section-three{
 	width: 100%; min-height: 500px;
 	position: relative;
 	overflow: hidden;
 }
-.section-one, .section-three{
-}
+
 p{
 	width:450px;
 	margin: 10px auto;

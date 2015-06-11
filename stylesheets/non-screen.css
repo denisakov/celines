@@ -1,7 +1,3 @@
-a#forkme_banner {
-  display: none;
-}
-
 div.shell {
   width: 640px;
 }
@@ -38,16 +34,6 @@ header h1 {
   font-size: 2em;
 }
 
-section#downloads {
-  height: 171px;
-  width: 602px;
-  margin: 51px auto -250px;
-  background: transparent url(../images/shield.png) center 0 no-repeat;
-}
-
-section#downloads a {
-  display: none;
-}
 
 span.banner-fix {
   background: transparent url(../images/shield-fallback.png) center top no-repeat;
@@ -104,13 +90,6 @@ footer span.ribbon-inner a {
   padding-bottom: 10px;
 }
 
-footer span.octocat {
-  background: transparent url(../images/octocat-2x.png) 0 0 no-repeat;
-  width: 60px;
-  height: 60px;
-  margin: 20px auto 0;
-}
-
 body {
   font: normal normal 30px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
 }
@@ -141,8 +120,8 @@ img {
   -moz-box-shadow: 0px 4px 0px #bdb6ad;
   box-shadow: 0px 4px 0px #bdb6ad;
   border: 4px solid #fff6e9;
-  max-width: 556px;
-}
+/*  max-width: 556px;
+*/}
 
 blockquote {
   background: transparent url('../images/blockquote-gfx-2x.png') 0 8px no-repeat;

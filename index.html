@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld">
     
     <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
-    <link type="text/css" rel="stylesheet" href="stylesheets/example.css">
+    <link type="text/css" rel="stylesheet" href="stylesheets/prlx.css">
 
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
@@ -38,7 +38,16 @@
     <div class="shell">
 
     	<section class="section-one">
- 			<div class="prlx-1"></div>
+ 			<div class="prlx-1">
+ 				<img 
+					srcset="images/bg/xlarge.jpg  1920w,
+					        images/bg/large.jpg  1240w,
+					        images/bg/medium.jpg  620w,
+					        images/bg/small.jpg   310w"
+					sizes="(min-width: 100vw)"
+					src="images/bg/medium.jpg"
+					alt="First salad ever photographed" />
+ 			</div>
  			<header>
 			    <span class="ribbon-outer">
 			   	    <span class="ribbon-inner">
@@ -53,7 +62,9 @@
 
 
 	    <section id="section-two">
-	        <br />&nbsp;
+	        <br />
+	        <!-- <img src="https://www.dropbox.com/s/9nsab40g59soe81/w.jpg?dl=1" width="600px"> -->
+            <br />
 	    </section>
 
 	    <section class="section-three">

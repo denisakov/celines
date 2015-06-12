@@ -1,11 +1,3 @@
-@font-face {font-family: NexaBold;
-    src: url('../font/Nexa_Bold.eot');
-    src: url('../font/Nexa_Bold.eot?#iefix') format('embedded-opentype'),
-         url('../font/Nexa_Bold.woff') format('woff'),
-         url('../font/Nexa_Bold.ttf') format('truetype'),
-         url('../font/Nexa_Bold.svg#OpenSansLight') format('svg');
-}
-
 .clear{clear: both;}
 .tuto-cnt{width: 360px; height:auto; min-height: 400px; margin: 40px auto; overflow: auto; }
 .tuto-cnt p{ line-height: 18px; font-size: 14px;}
@@ -20,30 +12,34 @@
 /*.prlx-1{ background: repeat; }*/
 .prlx-2{ background: url('../images/bg2.jpg') repeat; }
 
-.section-one h2, .section-three h2{ 
+/*.section-one h2, .section-three h2{ 
 	font: bold 38px helvetica, sans-serif;
 	color: white;
 	position: absolute;
-	bottom:90px; left: 200px;
+	bottom:90px;
+	left: 200px;
 	padding:10px;
 	background-color: #232323;
-}
+}*/
 
-.section-one{
-	width: 100%; min-height: 666px;
-	position: relative;
-	overflow: hidden;
-	/*background-position:50% 100%;*/
-}
-
-.section-two, .section-three{
-	width: 100%; min-height: 500px;
+.section-one, .section-three{
+	width: 100%;
+	min-height: 50em;
 	position: relative;
 	overflow: hidden;
 }
+/*section img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	background-position:50% 50%;
+}*/
 
-p{
-	width:450px;
-	margin: 10px auto;
-	font: 14px helvetica, sans-serif; line-height: 18px;
+.section-two, .section-four{
+	width: 100%;
+	min-height: 50px;
+	position: relative;
+	overflow: hidden;
 }
